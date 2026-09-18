@@ -1,0 +1,11 @@
+:root {
+  --canvas: #f5f6f8;
+  --surface: #ffffff;
+  --ink: #141821;
+  --ink-soft: #4a5364;
+  --rule: #c9d0da;
+  --accent: #1b3a6b;
+  --zone-green: #1f6f43;
+  --zone-amber: #b8730c;
+  --zone-red: #a32e2e;
+}
