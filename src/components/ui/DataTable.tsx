@@ -10,9 +10,15 @@ interface DataTableProps<T> {
   columns: readonly DataTableColumn<T>[]
   rows: readonly T[]
   rowKey?: (row: T, index: number) => Key
+  rowClassName?: (row: T) => string | undefined
 }
 
-export function DataTable<T>({ columns, rows, rowKey }: DataTableProps<T>) {
+export function DataTable<T>({
+  columns,
+  rows,
+  rowClassName,
+  rowKey,
+}: DataTableProps<T>) {
   return (
     <div className="data-table-wrap">
       <table className="data-table">
@@ -27,7 +33,10 @@ export function DataTable<T>({ columns, rows, rowKey }: DataTableProps<T>) {
         </thead>
         <tbody>
           {rows.map((row, index) => (
-            <tr key={rowKey ? rowKey(row, index) : index}>
+            <tr
+              className={rowClassName?.(row)}
+              key={rowKey ? rowKey(row, index) : index}
+            >
               {columns.map((column) => {
                 const value = row[column.key]
 

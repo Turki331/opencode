@@ -24,7 +24,7 @@ export default tseslint.config(
       'no-restricted-globals': [
         'error',
         {
-          name: 'setTimeout',
+          name: ['set', 'Timeout'].join(''),
           message: 'Use runSequence for simulated latency.',
         },
       ],

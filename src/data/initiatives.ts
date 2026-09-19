@@ -1,0 +1,88 @@
+import type { Initiative } from '../store/types'
+
+export const initiatives: readonly Initiative[] = [
+  {
+    id: 'initiative-dispatch',
+    objectiveId: 'objective-01',
+    title: 'Supplier dispatch reliability programme',
+    ownerId: 'person-nouf',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-service-recovery',
+    objectiveId: 'objective-02',
+    title: 'Service recovery workflow redesign',
+    ownerId: 'person-khalid',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-warehouse',
+    objectiveId: 'objective-03',
+    title: 'Automate warehouse logistics and ERP ingestion',
+    ownerId: 'person-sara',
+    status: 'AT_RISK',
+  },
+  {
+    id: 'initiative-operations-academy',
+    objectiveId: 'objective-04',
+    title: 'Frontline operations academy',
+    ownerId: 'person-sara',
+    status: 'PLANNED',
+  },
+  {
+    id: 'initiative-case-resolution',
+    objectiveId: 'objective-05',
+    title: 'Customer case resolution cockpit',
+    ownerId: 'person-khalid',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-self-service',
+    objectiveId: 'objective-06',
+    title: 'Self-service channel expansion',
+    ownerId: 'person-khalid',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-customer-recovery',
+    objectiveId: 'objective-07',
+    title: 'Voice of customer recovery loop',
+    ownerId: 'person-khalid',
+    status: 'PLANNED',
+  },
+  {
+    id: 'initiative-regional-partners',
+    objectiveId: 'objective-08',
+    title: 'Regional partner enablement network',
+    ownerId: 'person-nouf',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-local-sourcing',
+    objectiveId: 'objective-09',
+    title: 'Local sourcing and capability uplift',
+    ownerId: 'person-nouf',
+    status: 'PLANNED',
+  },
+  {
+    id: 'initiative-working-capital',
+    objectiveId: 'objective-10',
+    title: 'Working capital release controls',
+    ownerId: 'person-faisal',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-margin-protection',
+    objectiveId: 'objective-11',
+    title: 'Margin protection review cadence',
+    ownerId: 'person-faisal',
+    status: 'ACTIVE',
+  },
+  {
+    id: 'initiative-resilience',
+    objectiveId: 'objective-12',
+    title: 'Resilience investment prioritisation',
+    ownerId: 'person-layla',
+    status: 'PLANNED',
+  },
+]

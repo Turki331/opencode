@@ -1,0 +1,88 @@
+import type { Objective } from '../store/types'
+
+export const objectives: readonly Objective[] = [
+  {
+    id: 'objective-01',
+    code: 'OBJ-01',
+    title: 'Improve order fulfilment reliability across core depots',
+    pillar: 'Operational Excellence',
+    sourceRef: { page: 14, section: '2.1' },
+  },
+  {
+    id: 'objective-02',
+    code: 'OBJ-02',
+    title: 'Reduce service recovery cycle time for priority accounts',
+    pillar: 'Operational Excellence',
+    sourceRef: { page: 19, section: '2.4' },
+  },
+  {
+    id: 'objective-03',
+    code: 'OBJ-03',
+    title: 'Expand regional market share by 25% by Q4 2027',
+    pillar: 'Vision 2030 Alignment',
+    sourceRef: { page: 47, section: '3.2' },
+  },
+  {
+    id: 'objective-04',
+    code: 'OBJ-04',
+    title: 'Build a measurable frontline capability pipeline',
+    pillar: 'Operational Excellence',
+    sourceRef: { page: 26, section: '2.8' },
+  },
+  {
+    id: 'objective-05',
+    code: 'OBJ-05',
+    title: 'Resolve priority customer cases within the agreed service window',
+    pillar: 'Customer Experience',
+    sourceRef: { page: 58, section: '4.1' },
+  },
+  {
+    id: 'objective-06',
+    code: 'OBJ-06',
+    title: 'Increase adoption of digital service channels',
+    pillar: 'Customer Experience',
+    sourceRef: { page: 63, section: '4.4' },
+  },
+  {
+    id: 'objective-07',
+    code: 'OBJ-07',
+    title: 'Turn customer feedback into closed-loop recovery actions',
+    pillar: 'Customer Experience',
+    sourceRef: { page: 69, section: '4.7' },
+  },
+  {
+    id: 'objective-08',
+    code: 'OBJ-08',
+    title: 'Develop a partner network that supports regional expansion',
+    pillar: 'Vision 2030 Alignment',
+    sourceRef: { page: 74, section: '5.1' },
+  },
+  {
+    id: 'objective-09',
+    code: 'OBJ-09',
+    title: 'Increase local capability in strategic supply categories',
+    pillar: 'Vision 2030 Alignment',
+    sourceRef: { page: 81, section: '5.4' },
+  },
+  {
+    id: 'objective-10',
+    code: 'OBJ-10',
+    title: 'Release working capital without weakening service resilience',
+    pillar: 'Financial Resilience',
+    sourceRef: { page: 89, section: '6.1' },
+  },
+  {
+    id: 'objective-11',
+    code: 'OBJ-11',
+    title: 'Protect operating margin through disciplined portfolio reviews',
+    pillar: 'Financial Resilience',
+    sourceRef: { page: 94, section: '6.4' },
+  },
+  {
+    id: 'objective-12',
+    code: 'OBJ-12',
+    title: 'Prioritise resilience investments against quantified exposure',
+    pillar: 'Financial Resilience',
+    sourceRef: { page: 101, section: '6.8' },
+  },
+]

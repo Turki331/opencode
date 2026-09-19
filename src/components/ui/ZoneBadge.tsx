@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react'
-
-export type Zone = 'GREEN' | 'YELLOW' | 'RED'
+import type { Zone } from '../../store/types'
 
 interface ZoneBadgeProps {
   zone: Zone
